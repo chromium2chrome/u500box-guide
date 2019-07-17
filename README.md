@@ -88,3 +88,13 @@ Your U500 box is shipped with Chromium OS as its stock operating system. Chromiu
   	- Remove the USB drive
   	- Power on again
   - By now you shall have a brand-new Chrome OS installation and it will begin from OOBE. Enjoy!
+
+
+## Steps to upgrade your Chrome OS installation
+TODO
+
+
+## Credits
+[The Chromium Projects](https://www.chromium.org/)<br>
+[Project Croissant](https://github.com/imperador/chromefy/) and its authors<br>
+[FydeOS](https://github.com/FydeOS/) and its team
