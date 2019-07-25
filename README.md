@@ -10,9 +10,9 @@ Your U500 box is shipped with Chromium OS as its stock operating system. Chromiu
  - U500 box that runs stock Chromium OS, or any other Linux distribution. Keyboard and a pointer device are also needed.
  - An USB mass storage device with minimum capacity of 8GB. It would be ideal to have a fast USB 3.0 flash drive.
  - Latest "[Project Croissant](https://github.com/imperador/chromefy)" zip file dump.
- - Stock Chromium OS recovery image that is running on your U500 device, click [here](https://fydeos.cowtransfer.com/s/8346223985384d) to download.
+ - Stock Chromium OS recovery image that is running on your U500 device, click [here](https://fydeos.cowtransfer.com/s/d64d74716c5b4a) to download.
  - Target Chrome OS recovery image that you wish to convert to. We recommend the latest version of "eve" (Recovery image of Google Pixelbook) to utilise more cool features including Google Assistant. To download the recovery image, click [here](https://cros-updates-serving.appspot.com/) to navigate to the list page of all Chrome OS recovery images and search within the web-page for "eve". Click on the link that has the largest version number. At the time when this guide was written, it was [74](https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11895.118.0_eve_recovery_stable-channel_mp.bin.zip).
- - "Chrome OS recovery utility" Chrome App: you can obtain this from [Chrome Web Store](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/jndclpdbaamdhonoechobihbbiimdgai?hl=en).
+ - "Chromebook recovery utility" Chrome App: you can obtain this from [Chrome Web Store](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/jndclpdbaamdhonoechobihbbiimdgai?hl=en).
 
 
 ## Steps to create the Chrome OS image
@@ -84,10 +84,10 @@ Your U500 box is shipped with Chromium OS as its stock operating system. Chromiu
   chromeos-install --dst /dev/sda
   ```
   - It will take a few minutes for the command to finish depending on the i/o speed of your USB drive. Once the command finishes, please:
-  	- Shutdown your U500 box
+  	- Power down your U500 box
   	- Remove the USB drive
-  	- Power on again
-  - By now you shall have a brand-new Chrome OS installation and it will begin from OOBE. Enjoy!
+  	- Power up again
+   - By now you shall have a brand-new Chrome OS installation and it will begin from OOBE. Enjoy!
 
 
 ## Steps to upgrade your Chrome OS installation
